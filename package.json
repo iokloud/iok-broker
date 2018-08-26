@@ -1,0 +1,34 @@
+{
+  "name": "iok-broker",
+  "version": "0.1.1",
+  "description": "Broker with authentication and authorization ability with credintial servers connectivity.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iokloud/iok-broker.git"
+  },
+  "keywords": [
+    "mqtt",
+    "broker",
+    "authentication",
+    "authorization",
+    "credintial"
+  ],
+  "author": "Hadi Mahdavi",
+  "license": "MIT",
+  "dependencies": {
+    "ponte": "0.0.16"
+  },
+  "devDependencies": {
+    "supertest": "3.1.0",
+    "mocha": "5.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/iokloud/iok-broker/issues"
+  },
+  "homepage": "https://github.com/iokloud/iok-broker#readme"
+}
